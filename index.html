@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Typing Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <p class="score_counter"><span id="score_counter">0</span></p>
+    <p class="hi_score">HI: <span id="hi_score_counter">0</span></p>
+    <div class="wrapper">
+      <p id="time_counter">60 s</p>
+      <p id="word"></p>
+      <input type="text" id="input" placeholder="Click to start" />
+    </div>
+
+    <audio id="point" src="/sounds/point.mp3"></audio>
+    <audio id="die" src="/sounds/die.mp3"></audio>
+    <audio id="mission_complete" src="/sounds/mission-complete.mp3"></audio>
+
+    <script type="text/javascript" src="dev-data/words.json"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
